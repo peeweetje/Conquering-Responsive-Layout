@@ -1,19 +1,31 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-body { 
-    margin: 0;
-    font-family: sans-serif;
-} 
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
 
 .container {
-    width: 80%;
-    max-width: 750px;
-    margin: 0 auto;
-    background: #23424A;
-    color: white;
-    padding: 50px 0; 
+  display: flex;
+  justify-content: center;
+  background: #23424a;
+  color: white;
+  padding: 50px 0;
 }
 
 .intro-content {
-    width: 50%;
+  max-width: 750px;
+  width: 50%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  max-width: 750px;
+  width: 50%;
 }
