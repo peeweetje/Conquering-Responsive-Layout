@@ -15,6 +15,7 @@ h1 {
 }
 
 p {
+  width: 70%;
   font-size: 21px;
   font-weight: 400;
   padding-bottom: 31px;
@@ -30,7 +31,7 @@ p {
 
 .intro-content {
   max-width: 750px;
-  width: 50%;
+  width: 80%;
 }
 
 .btn {
@@ -45,4 +46,9 @@ p {
   background-color: #38cfd9;
   color: #23424a;
   border: none;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.75;
 }
