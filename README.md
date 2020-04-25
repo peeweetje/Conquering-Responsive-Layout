@@ -18,3 +18,11 @@
 ### Solution
 
 > Build your own responsive website with the design that's given. Put all that you have learned into practice!
+
+## flexbox-challenge
+
+### Solution
+
+> display flex => flex container => allways the parent, default = row
+> gap is very useful but only supported by firefox => the solution = col + col = margin.
+> Build the respnsive website with the design that's given using flexbox
