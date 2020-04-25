@@ -77,16 +77,16 @@ p {
   margin-left: 35px;
 }
 
-.first-hero {
-  padding: 50px 0;
+.first-section {
+  padding: 3em 0;
 }
 
 .first-heading {
   color: #87629a;
 }
 
-.second-hero {
-  padding: 50px 0;
+.second-section {
+  padding: 3em 0;
   background-color: #136c72;
   color: #fff;
 }
