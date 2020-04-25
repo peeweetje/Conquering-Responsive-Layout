@@ -12,3 +12,9 @@
 ### Solution
 
 > When getting in to bigger screensizes we want to Change the layout to limit the total line length of text(the text is stretchen all across) the solution is to set a max-width: it let's you design for your big screens without things stretching from one side to another, it's limit the space your are working in.
+
+## Challenge 3
+
+### Solution
+
+> Build your own responsive website with the design that's given. Put all that you have learned into practice!
