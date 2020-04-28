@@ -90,3 +90,17 @@ h1 {
 .btn:focus {
   opacity: 0.75;
 }
+
+.first-heading {
+  color: #23424a;
+}
+
+.first-par {
+  color: #3a3a3a;
+}
+
+.second-section {
+  background-color: #136c72;
+  color: #fff;
+  flex-direction: column;
+}
