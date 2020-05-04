@@ -39,6 +39,18 @@ h1 {
   margin: 0 auto;
 }
 
+.first-row .second-row {
+  width: 80%;
+  margin-top: 25px 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.second-row {
+  margin: 25px 25px;
+}
+
 .row {
   /* display: flex => flex container */
   display: flex;
@@ -51,10 +63,7 @@ h1 {
 .col {
   /* these are now flex items */
   width: 100%;
-}
-
-.col + .col {
-  margin-left: 30px;
+  padding: 0px 25px;
 }
 
 .hero {
@@ -91,6 +100,15 @@ h1 {
   opacity: 0.75;
 }
 
+.main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.first-section {
+  margin-top: 50px;
+}
+
 .first-heading {
   color: #23424a;
 }
@@ -100,7 +118,15 @@ h1 {
 }
 
 .second-section {
+  margin: 50px 0px;
   background-color: #136c72;
   color: #fff;
-  flex-direction: column;
+}
+
+.second-heading {
+  text-align: center;
+}
+
+.second-par {
+  text-align: center;
 }
