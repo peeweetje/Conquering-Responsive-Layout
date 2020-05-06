@@ -4,8 +4,8 @@
 
 ### Solution
 
-> Websites are responsive by default, There is no need for the height, it is cause for al sort of problems, if you need to give an element a height, just don't!
-> If you need more background use padding.
+> - Websites are responsive by default, There is no need for the height, it is cause for al sort of problems, if you need to give an element a height, just don't!
+> - If you need more background use padding.
 
 ## Challenge 2
 
@@ -17,13 +17,13 @@
 
 ### Solution
 
-> Build your own responsive website with the design that's given. Put all that you have learned into practice!
+> - Build your own responsive website with the design that's given. Put all that you have learned into practice!
 
 ## flexbox-challenge
 
 ### Solution
 
-> display flex => flex container => allways the parent, default = row.
-> Gap is very useful but only supported by firefox => the solution = col + col = margin.
-> Build the respnsive website with the design that's given using flexbox.
-> With flexbox there is allways gonna be a parent and the directive children becoming the columns.
+> - display flex => flex container => allways the parent, default = row.
+> - Gap is very useful but only supported by firefox => the solution = col + col = margin.
+> - Build the respnsive website with the design that's given using flexbox.
+> - With flexbox there is allways gonna be a parent and the directive children becoming the columns.
