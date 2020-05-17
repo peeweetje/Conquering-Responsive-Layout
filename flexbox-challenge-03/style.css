@@ -20,6 +20,10 @@ body {
   font-size: 1.3rem;
 }
 
+.logo {
+  margin-right: 1rem;
+}
+
 img {
   max-width: 100%;
 }
@@ -77,6 +81,8 @@ header {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .nav__list {
@@ -84,16 +90,19 @@ header {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 0.9rem;
 }
 
 .nav__item + .nav__item {
   margin-left: 1rem;
+  justify-content: space-between;
 }
 
 .nav__link {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  padding-left: 2rem;
 }
 
 .nav__link--button {
