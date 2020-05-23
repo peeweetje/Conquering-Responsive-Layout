@@ -67,6 +67,11 @@ p {
   min-height: 400px;
 }
 
+.first-header {
+  margin: 1rem;
+  color: #824936;
+}
+
 .second-section {
   min-height: 400px;
   background-color: #222c2a;
