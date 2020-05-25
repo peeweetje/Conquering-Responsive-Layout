@@ -25,5 +25,7 @@
 
 > - display flex => flex container => allways the parent, default = row.
 > - Gap is very useful but only supported by firefox => the solution = col + col = margin.
-> - Build the respnsive website with the design that's given using flexbox.
+> - Build the responsive website with the design that's given using flexbox.
 > - With flexbox there is allways gonna be a parent and the directive children becoming the columns.
+> - When using media-queries start with the smallest screen (mobile-first).
+> - Don't use fixed media-queries, look at where the design breaks and improve accordingly.
