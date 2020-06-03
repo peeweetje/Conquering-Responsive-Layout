@@ -11,12 +11,31 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 h1 {
   font-size: 3rem;
   margin-top: 0;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #3b4050;
+  color: #fff;
+}
+
+.hero__text {
+  width: 62%;
+}
+
+.hero__img {
+  width: 32%;
+  align-self: flex-start;
+}
+
+.hero p {
+  margin-bottom: 3em;
 }
 
 .nav-toggle {
@@ -26,7 +45,7 @@ h1 {
   height: 3em;
   padding: 0em;
   border-radius: 50%;
-  background: #072a2d;
+  background: #2e323f;
   color: white;
   transition: opacity 250ms ease;
 
@@ -65,4 +84,10 @@ h1 {
 
 .hamburger::after {
   transform: translateY(3px);
+}
+
+@media (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
 }
